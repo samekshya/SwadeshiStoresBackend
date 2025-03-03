@@ -11,7 +11,7 @@ router.post("/login", loginUser);
 
 router.get("/profile", authenticate, getUserProfile);
 
-// Admin-only Route (Only admins can access)
+
 router.get("/admin/users", authenticate, restrictToAdmin, async (req, res) => {
   try {
     const users = await User.findAll({ attributes: { exclude: ["password"] } });
