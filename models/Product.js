@@ -43,7 +43,7 @@ const Product = sequelize.define("Product", {
   timestamps: true,
 });
 
-// Define association (One-to-Many: Category → Products)
+
 Category.hasMany(Product, { foreignKey: "categoryId", onDelete: "CASCADE" });
 Product.belongsTo(Category, { foreignKey: "categoryId" });
 
