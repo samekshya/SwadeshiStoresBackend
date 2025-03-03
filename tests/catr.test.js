@@ -11,7 +11,7 @@ const UserMock = dbMock.define("User", {
   password: "hashedpassword",
 });
 
-// Define a mock Product model
+
 const ProductMock = dbMock.define("Product", {
   id: 1,
   name: "Smartphone",
