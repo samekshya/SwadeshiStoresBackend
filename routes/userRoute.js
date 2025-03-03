@@ -4,7 +4,7 @@ const { authenticate, restrictToAdmin } = require("../middleware/authMiddleware"
 
 const router = express.Router();
 
-// Public Routes (Accessible to all users)
+
 router.post("/register", registerUser);
 router.post("/login", loginUser);
 
