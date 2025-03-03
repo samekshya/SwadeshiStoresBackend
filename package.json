@@ -1,0 +1,35 @@
+{
+  "name": "yarn_hues_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.13.3",
+    "pg-promise": "^11.10.2",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "cross-env": "^7.0.3",
+    "jest": "^29.7.0",
+    "mocha": "^11.1.0",
+    "sequelize-mock": "^0.10.2",
+    "sinon": "^19.0.2",
+    "supertest": "^7.0.0"
+  }
+}
