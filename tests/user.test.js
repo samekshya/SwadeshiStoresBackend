@@ -1,6 +1,6 @@
 const SequelizeMock = require("sequelize-mock");
 
-// Create a mocked database connection
+on
 const dbMock = new SequelizeMock();
 
 
