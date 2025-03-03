@@ -33,7 +33,7 @@ describe("Category Model", () => {
 
     await expect(
       CategoryMock.create({
-        name: "Home Appliances", // Duplicate name
+        name: "Home Appliances", 
         description: "Another home category",
       })
     ).rejects.toThrow();
