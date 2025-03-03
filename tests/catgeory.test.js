@@ -45,6 +45,6 @@ describe("Category Model", () => {
     });
 
     expect(category.name).toBe("Sports");
-    expect(category.description).toBeNull(); // No description provided
+    expect(category.description).toBeNull(); 
   });
 });
