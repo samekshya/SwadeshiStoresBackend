@@ -21,7 +21,7 @@ const ProductMock = dbMock.define("Product", {
   imageUrl: "smartphone.jpg",
 });
 
-// Define a mock Cart model with associations
+
 const CartMock = dbMock.define("Cart", {
   id: 1,
   userId: 1, // Foreign key reference to User
