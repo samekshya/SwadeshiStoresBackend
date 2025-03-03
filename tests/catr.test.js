@@ -84,7 +84,7 @@ describe("Cart Model", () => {
       price: 99.99,
       stock: 20,
       imageUrl: "keyboard.jpg",
-    });
+    });//
 
     const cartItem = await CartMock.create({
       userId: 1,
