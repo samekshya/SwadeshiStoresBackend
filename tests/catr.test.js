@@ -29,7 +29,7 @@ const CartMock = dbMock.define("Cart", {
   quantity: 2,
 });
 
-// Simulate associations (Many-to-One: Cart → User, Product)
+
 CartMock.belongsTo(UserMock, { foreignKey: "userId" });
 CartMock.belongsTo(ProductMock, { foreignKey: "productId" });
 UserMock.hasMany(CartMock, { foreignKey: "userId" });
