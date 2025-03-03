@@ -1,8 +1,6 @@
 const SequelizeMock = require("sequelize-mock");
 
-
 const dbMock = new SequelizeMock();
-
 
 const CategoryMock = dbMock.define("Category", {
   id: 1,
