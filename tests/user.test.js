@@ -42,7 +42,7 @@ describe("User Model", () => {
     await expect(
       UserMock.create({
         name: "Bob",
-        email: "alice@example.com", // Same email as Alice
+        email: "alice@example.com", 
         password: "anotherpass",
         role: "customer",
       })
