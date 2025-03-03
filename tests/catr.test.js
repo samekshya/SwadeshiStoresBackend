@@ -24,8 +24,8 @@ const ProductMock = dbMock.define("Product", {
 
 const CartMock = dbMock.define("Cart", {
   id: 1,
-  userId: 1, // Foreign key reference to User
-  productId: 1, // Foreign key reference to Product
+  userId: 1, 
+  productId: 1, 
   quantity: 2,
 });
 

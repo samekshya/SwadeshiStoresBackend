@@ -3,7 +3,7 @@ const SequelizeMock = require("sequelize-mock");
 // Create a mocked database connection
 const dbMock = new SequelizeMock();
 
-// Define a mock User model
+
 const UserMock = dbMock.define("User", {
   id: 1,
   name: "Test User",
