@@ -8,7 +8,7 @@ const router = express.Router();
 router.post("/register", registerUser);
 router.post("/login", loginUser);
 
-// Private Route (Only logged-in users can access)
+
 router.get("/profile", authenticate, getUserProfile);
 
 // Admin-only Route (Only admins can access)
